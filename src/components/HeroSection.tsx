@@ -25,9 +25,9 @@ const HeroSection = () => (
         </p>
 
         {/* Location badge */}
-        <a href="https://maps.app.goo.gl/hsZwRRgjuvdUguUTA?g_st=aw" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-card border border-border rounded-full px-4 py-2 mb-6 text-sm text-muted-foreground hover:text-primary transition">
-          <MapPin size={16} className="text-accent" />
-          Kakinada, Andhra Pradesh – Get Directions
+        <a href="https://maps.app.goo.gl/hsZwRRgjuvdUguUTA?g_st=aw" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-accent/20 border-2 border-accent rounded-full px-6 py-3 mb-6 text-base font-rajdhani font-bold text-accent hover:bg-accent hover:text-white transition-all animate-pulse-neon neon-glow-red">
+          <MapPin size={20} className="text-accent" />
+          📍 Visit Our Shop – Kakinada, AP → Get Directions
         </a>
 
         {/* CTAs */}
