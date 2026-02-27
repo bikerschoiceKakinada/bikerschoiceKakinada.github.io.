@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/",        // correct base for https://bikerschoicekakinada.github.io
+  base: "/",       // DO NOT CHANGE THIS
   plugins: [react()],
   build: {
     outDir: "dist",
   },
-})
+});
