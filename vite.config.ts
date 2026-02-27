@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/',  // Change to your desired base path
+  base: "/",        // correct base for https://bikerschoicekakinada.github.io
+  plugins: [react()],
   build: {
-    outDir: 'dist',  // Set the output directory for builds
-    // Additional build options can be specified here
+    outDir: "dist",
   },
-  // Add other Vite options as necessary
-});
+})
